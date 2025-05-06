@@ -5,7 +5,6 @@ function UpdateOrder({ order }) {
   const fecher = useFetcher();
   return (
     <fecher.Form method="PATCH" className="text-right">
-      {" "}
       <Button type="primary">Make Priority</Button>
     </fecher.Form>
   );
